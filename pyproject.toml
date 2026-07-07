@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alnabd"
+version = "1.0.0"
+authors = [{ name = "Farhan Almutairi", email = "far7an.o88@gmail.com" }]
+description = "Pre-publish content reception scorer."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "Proprietary" }
+
+[project.scripts]
+alnabd = "alnabd.cli:main"
+
+[tool.setuptools]
+packages = ["alnabd"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

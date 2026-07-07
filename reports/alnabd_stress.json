@@ -1,0 +1,35 @@
+{
+  "input": "C:\\Projects\\alnabd\\data\\external\\tweet_eval_sentiment_12000.jsonl",
+  "model": "C:\\Projects\\alnabd\\models\\alnabd_pulse_model.json",
+  "records": 12000,
+  "repeat": 3,
+  "processed": 36000,
+  "errors": 0,
+  "metrics": {
+    "accuracy": 0.9046666666666666,
+    "precision": 0.8901147396293028,
+    "recall": 0.861965811965812,
+    "specificity": 0.9319672131147541,
+    "f1": 0.8758141554494139,
+    "tp": 12102,
+    "tn": 20466,
+    "fp": 1494,
+    "fn": 1938
+  },
+  "latency_ms": {
+    "mean": 0.058347658385981854,
+    "p50": 0.05840000812895596,
+    "p95": 0.07829998503439128,
+    "p99": 0.09169999975711107,
+    "max": 0.7283000159077346
+  },
+  "memory_mb": {
+    "current": 1.1923,
+    "peak": 1.197326
+  },
+  "elapsed_seconds": 2.1919394000142347,
+  "collapse_check": {
+    "passed": true,
+    "criteria": "errors == 0"
+  }
+}
